@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "GSLoadingIndicator"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "GSLoadingIndicator is a loading indicator"
   s.description  = <<-DESC
                     GSLoadingIndicator is loading indicator. It's looks like android material design and cool.

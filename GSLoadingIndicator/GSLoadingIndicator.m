@@ -219,9 +219,9 @@ typedef NS_ENUM(NSUInteger, PullState) {
 		[self layoutIfNeeded];
 	} completion:^(BOOL finished) {
 		[self endAnimating];
-        pullState = PullStateFinished;
-		colorIndex = 0;
-		pathLayer.strokeColor = ((UIColor*)self.colors[colorIndex]).CGColor;
+        self->pullState = PullStateFinished;
+		self->colorIndex = 0;
+		self->pathLayer.strokeColor = ((UIColor*)self.colors[self->colorIndex]).CGColor;
 	}];
 }
 
